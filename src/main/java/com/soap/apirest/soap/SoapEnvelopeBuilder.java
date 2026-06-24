@@ -449,7 +449,7 @@ public class SoapEnvelopeBuilder {
                     <soapenv:Body>
                         <tns:DeleteEstoque>
                             <tns:id_estoque>%d</tns:id_estoque>
-                        </tns:Deleteestoque>
+                        </tns:DeleteEstoque>
                     </soapenv:Body>
                 </soapenv:Envelope>
                 """.formatted(NAMESPACE, id);
@@ -541,7 +541,7 @@ public class SoapEnvelopeBuilder {
                     <soapenv:Header/>
                     <soapenv:Body>
                         <tns:CreateItemPedido>
-                            <tns:quantidade>%s</tns:qauntidade>
+                            <tns:quantidade>%s</tns:quantidade>
                             <tns:valor_unitario>%s</tns:valor_unitario>
                             <tns:id_pedido>%s</tns:id_pedido>
                             <tns:id_produto>%s</tns:id_produto>
